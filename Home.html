@@ -1,7 +1,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <link href="fontawesome/css/all.css" rel="stylesheet">
-<link href="css/la-roca.css" rel="stylesheet" type="text/css">
+
 
 
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
@@ -11,35 +11,45 @@
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> 
- <script src="bootstrap/js/bootstrap.min.js"></script> <!– Llamamos al JavaScript de Bootstrap –> 
-<link href="bootstrap/css/estilos.css" rel="stylesheet" media="screen"> 
+ <script src="bootstrap/js/bootstrap.min.js"></script> <!– Llamamos al JavaScript de Bootstrap –>
+<link href="bootstrap/css/estilos.css" rel="stylesheet" media="screen">
+    <link href="css/la-roca.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  
-  <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
+  <nav class="navbar navbar-expand-lg navbar-light laroca">
+  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+      <div class="datos-contacto2">
+          4588-1111<br>info@laroca.hotel.com.ar
+      </div>
+      <img src="img/iconos-sociales.png" alt="idiomas" class="iconos-sociales2">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active" >
-        <a class="nav-link " style="color:#9C0F0A;border-right:1px solid #9C0F0A" href="#" >INICIO <span class="sr-only">(current)</span></a>
+        <a class="nav-link " href="#" >INICIO <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link " style="color:#9C0F0A;border-right:1px solid #9C0F0A" href="#">HABITACIONES</a>
+        <a class="nav-link " href="#">HABITACIONES</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link " style="color:#9C0F0A;border-right:1px solid #9C0F0A" href="#">SERVICIOS</a>
+        <a class="nav-link " href="#">SERVICIOS</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link " style="color:#9C0F0A;" href="#" tabindex="-1" aria-disabled="true">UBICACION</a>
+      <li class="nav-item active sin-borde">
+        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">UBICACION</a>
       </li>
     </ul>
-    
+
   </div>
+      <div class="datos-contacto">
+      4588-1111<br>info@laroca.hotel.com.ar
+  </div>
+      <img src="img/iconos-sociales.png" alt="idiomas" class="iconos-sociales">
+
 </nav>
 
 <!--Carousel Wrapper-->
@@ -101,8 +111,8 @@
 <!--/.Carousel Wrapper-->
 
 <section>
-  <div class="container-fluid p-0  mb-2 bg-danger text-white">
-  <form class="form border rounded border-danger" id="paso1">
+  <div class="container-fluid p-0  mb-2 text-white"> <!--bg-danger-->
+  <form class="form border rounded" id="paso1"> <!--bg-danger-->
   <div class="row row justify-content-md-center mt-3 mb-3 ">
          <div class="col-md-2 text-center   ">
           <button type="button" class="btn btn-danger">Reservar on-line</button>
@@ -147,13 +157,13 @@
            <h4 class="text-warning">Habitaciones</h4>
   </div>
 </div>
-     <div class="row justify-content-md-center">
+     <div class="row justify-content-md-center habitaciones-index">
          <div class="col-md-4 text-center">
             <div class="card">
              <img src="img/habitacion1.jpg" class="img-fluid" alt="habitacion Golden cave">
               <div class="card-body">
                  <h5 class="text-warning">Golden cave</h5>
-                 <p class="card-text">Camas:2 individual/simple,vista al cerro</p>
+                 <p class="card-text">Camas: 2 individual/simple,vista al cerro</p>
                <a href="#" class="btn btn-warning">Ver más </a>
              </div>
            </div>
@@ -163,7 +173,7 @@
              <img src="img/habitacion2.jpg" class="img-fluid" alt="...">
               <div class="card-body">
               <h5 class="text-warning">Luxury cave</h5>
-                 <p class="card-text">Camas:1 individual/simple,vista al cerro</p>
+                 <p class="card-text">Camas: 1 individual/simple,vista al cerro</p>
                <a href="#" class="btn btn-warning">Ver más </a>
              </div>
            </div>
@@ -173,7 +183,7 @@
              <img src="img/habitacion3.jpg" class="img-fluid" alt="...">
               <div class="card-body">
                   <h5 class="text-warning">Deep cave</h5>
-                 <p class="card-text">cama: 2 indivual / simple, vista al cerro</p>
+                 <p class="card-text">Camas: 2 indivual/simple, vista al cerro</p>
                <a href="#" class="btn btn-warning">Ver más </a>
              </div>
            </div>
@@ -190,40 +200,40 @@
         </div>
     </div>
     <div class="row justify-content-md-center mb-2">
-        <div class="col-md-6  p-2">
+        <div class="col-md-4  p-2">
           <h5 class="text-danger">RESTAURANT</h5>
-          <p>-Comidas tipicas de la region</p>
-          <p>-Chef internacional</p>
-          <p>-Bar las 24hs</p>
+          <p>- Comidas tipicas de la region</p>
+          <p>- Chef internacional</p>
+          <p>- Bar las 24hs</p>
         </div>
-         <div class="col-md-6 text-center">
+         <div class="col-md-8 text-center">
          <img src="img/servicio1.jpg" class="img-fluid" alt="imagen de restaurante">
         </div>
     </div>
     <div class="row justify-content-md-center mb-2">
-        <div class="col-md-6 p-2">
+        <div class="col-md-4 p-2">
           <h5 class="text-danger ">PISCINA/SPA</h5>
-          <p>-3 Diferentes piscinas artificiales en las rocas</p>
-          <p>-SPA,masajes descontracturantes y de aromaterapia</p>
+          <p>- 3 Diferentes piscinas artificiales en las rocas</p>
+          <p>- SPA, masajes descontracturantes y de aromaterapia</p>
          
         </div>
-         <div class="col-md-6 text-center">
-          <img src="img/servicio2.jpeg" class="img-fluid" alt="Piscina artificial en una cueva">
+         <div class="col-md-8 text-center">
+          <img src="img/servicio2.jpg" class="img-fluid" alt="Piscina artificial en una cueva">
         </div>
     </div>
-    <div class="row justify-content-md-center mb-2">
-        <div class="col-md-6 p-2">
+    <div class="row justify-content-md-center mb-2 servicios-index">
+        <div class="col-md-4 p-2">
           <h5 class="text-danger">EXPEDICIONES Y ESPELEOBUCEO</h5>
-           <p>-Expediciones guiadas por profesionales</p>
-           <p>-Buceo</p>
-           <p>-Acampe en la cueva El Guacharo</p>
+           <p>- Expediciones guiadas por profesionales</p>
+           <p>- Buceo</p>
+           <p>- Acampe en la cueva El Guacharo</p>
         </div>
-         <div class="col-md-6 text-center">
+         <div class="col-md-8 text-center">
           <img src="img/servicio3.jpg" class="img-fluid" alt="foto de una expedicion">
         </div>
     </div>
 </div>
-<div class="elements container " style="padding-bottom:10%;">
+<div class="elements container mt-5 pb-5">
  
   <div class="row mb-1">
          <div class="col-md-auto  ">
@@ -231,17 +241,17 @@
         </div>
   </div>
   <div class="ubicacion"> 
-  <div class="mapadiv row row justify-content-md-center ml-4 ">
-         <div class="col-md-5 text-center mt-4">
-          <p>El hotel roca esta situado en una zona con paisaje montañoso y de relieve accidentado, con valles estrechos y vertientes inclinadas.</p>
+  <div class="mapadiv row row justify-content-md-center">
+         <div class="col-md-4 mt-4">
+          <p>Hotel La Roca esta situado en una zona con paisaje montañoso y de relieve accidentado, con valles estrechos y vertientes inclinadas.</p>
           <p>Los huéspedes podrían visitar uno de los parques nacionales mas famosos de Venezuela, como lo es el Parque Nacional El Guacharo con 62.700 ha distribuidas en 15.500 ha En el sector Negro Negro y 47.200 ha en la Cuenca Media del rio Caripe.</p>
      </div>
-     <div class="col-md-7 text-center mt-3 ">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d8067578.238753859!2d-63.9379276!3d9.1321326!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1573499882433!5m2!1ses-419!2sar" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+     <div class="col-md-8 mt-3 ">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d8067578.238753859!2d-63.9379276!3d9.1321326!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1573499882433!5m2!1ses-419!2sar" width="632" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
      </div>
   </div>
  
-  <div class=" row row justify-content-md-center p-3 mt-1">
+  <div class=" row row justify-content-md-center mt-1">
          <div class="col-md-4 ">
          <img src="img/ubicacion1.jpg"  class="img-fluid rounded" alt="imagen con vista del cerro">
          </div>
@@ -258,11 +268,10 @@
 <footer class="bg-primary page-footer font-small blue pt-4 sticky-bottom ">
 
 
-    <!-- Copyright -->
 
     <div class=" text-dark footer-copyright text-center py-3">
 
-        <a class="text-light" href="https://mdbootstrap.com/education/bootstrap/"> 4455-1126     info@LaRoca.Hotel.com.ar</a>
+        <a class="text-light" href="#"> 4455-1126     info@LaRoca.Hotel.com.ar</a>
 
     </div>
 
