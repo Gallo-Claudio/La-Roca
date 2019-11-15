@@ -1,0 +1,171 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link href="fontawesome/css/all.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> 
+ <script src="bootstrap/js/bootstrap.min.js"></script> <!– Llamamos al JavaScript de Bootstrap –> 
+<link href="bootstrap/css/estilos.css" rel="stylesheet" media="screen"> 
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active" >
+        <a class="nav-link " style="color:#9C0F0A;border-right:1px solid #9C0F0A" href="#" >INICIO <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " style="color:#9C0F0A;border-right:1px solid #9C0F0A" href="#">HABITACIONES</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " style="color:#9C0F0A;border-right:1px solid #9C0F0A" href="#">SERVICIOS</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " style="color:#9C0F0A;" href="#" tabindex="-1" aria-disabled="true">UBICACION</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+
+
+<main>
+<div class="container">
+  <div class="row row justify-content-md-center mt-3">
+         <div class="col-md-4 text-center ">
+          <h2 class="text-danger">Reservar on-line</h2>
+  </div>
+</div>
+    
+      <div class="row row justify-content-md-center mt-3">
+         <div class="col-md-4  ">
+           <label>Habitacion</label>
+            <select class="form-control" name="tipo de habitacion">
+                  <option>Golden cave</option>
+                  <option>Luxury cave</option>
+                  <option>Deep cave</option>
+         
+            </select>
+            <div class="mt-2">
+              <div ><img class="icon mb-2" src="img/wifi.png" alt="icono"> TV-WiFi gratis</div>
+              <div><img class="icon mb-2" src="img/shower.png" alt="icono"> Ducha en baño privado</div>
+              <div><img class="icon mb-2" src="img/washing-machine.png" alt="icono"> Lavanderia</div>
+              <div><img class="icon mb-2" src="img/bell.png" alt="icono"> Servicio de despertador</div>
+              <div><img class="icon mb-2" src="img/cheers.png" alt="icono"> Minibar </div>
+              <div><img class="icon mb-2" src="img/shield.png" alt="icono"> Caja de seguridad</div>
+              <div><img class="icon mb-2" src="img/cutlery.png" alt="icono"> Vino.frutas y dulces en la habitacion</div>
+              <div><img class="icon mb-2" src="img/destination.png" alt="icono"> Servicio de guia tour</div>
+            </div>
+         </div>
+         <div class="col-md-6 text-center">
+         <!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+
+  
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      
+    <div class="col-md-auto mb-3 p-0">
+        <div class="card">
+          <img class="img-fluid"  src="img/hotel1.jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="col-md-auto mb-3 p-0">
+        <div class="card">
+          <img class="img-fluid"  src="img/hotel1.jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+     </div>
+    <!--/.Second slide-->
+
+    <!--Third slide-->
+    <div class="carousel-item">
+
+      
+
+      <div class="col-md-auto mb-3 p-0">
+        <div class="card">
+          <img class="img-fluid"  src="img/hotel1.jpg"
+            alt="Card image cap">
+        </div>
+      </div>
+
+    </div>
+
+
+    <!--/.Third slide-->
+
+  </div>
+  <!--/.Slides-->
+<!--Controls-->
+  <div class="controls-top">
+    <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3"></i></a>
+    <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+  </div>
+  <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+         
+     </div>
+</div>
+<div class="row justify-content-md-center ">
+        <div class="col-md-3 text-center  bg-warning text-white border rounded">
+         <p>$28.000</p>
+         <p>2 personas-Sad 24 Nov-Mier 27 Nov.</p>
+         <p>Habitacion Golden cave</p>
+         </div>
+         <div class="col-md-5 text-center p-5">
+          <button type="button" class="btn btn-danger  text-white ml-4">Confirmar</button>
+         
+          <button type="button" class="btn   btn-secondary ml-4 text-white">Cancelar</button>
+         </div>
+       </div>
+
+
+</div>
+
+</main>
+
+<footer class="bg-primary page-footer font-small blue pt-4 sticky-bottom ">
+
+
+    <!-- Copyright -->
+
+    <div class=" text-dark footer-copyright text-center py-3">
+
+        <a class="text-light" href="https://mdbootstrap.com/education/bootstrap/"> 4455-1126     info@LaRoca.Hotel.com.ar</a>
+
+    </div>
+
+
+
+</footer>
+ 	</body>
