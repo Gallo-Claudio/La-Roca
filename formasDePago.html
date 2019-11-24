@@ -50,92 +50,108 @@
     <div class="container p-5">
         <div class="row justify-content-md-center ">
             <div class="col-lg-4">
-                <div class="card  bg-roca">
+                <div class="card bg-roca">
                     <div class="card-body">
                         <div class="col-md-12 text-center text-white">
                             <h3 class="titulo">Habitación<br /> <b>GOLDEN CAVE</b></h3>
-                            <hr class="hr-white"/>
+                            <hr class="hr-white" />
+                            <img src="img/habitacion1.jpg" class="img-fluid" alt="habitacion Golden cave">
+                            <hr class="hr-white" />
                             <label class="text-light">Precio</label>
-                            <h3><i class="fas fa-dollar-sign pr-2"></i>28.000</h3>
-                            <p>2 personas-Sad 24 Nov-Mier 27 Nov.</p>
+                            <h3 class="bg-light rounded text-secondary py-2"><i class="fas fa-dollar-sign pr-2"></i>28.000</h3>
+                            <hr class="hr-white" />
+                            <label class="text-light">Descripción</label>
+                            <h6><i class="fa fa-user-friends pr-2"></i>2 personas</h6>
+                            <h6><i class="fas fa-concierge-bell pr-2"></i>Pensión completa</h6>
+                            <hr class="hr-white" />
+                            <label class="text-light">Salida</label>
+                            <h5><i class="fa fa-calendar-alt pr-2"></i>Sábado 23/11/19</h5>
+                            <label class="text-light">Llegada</label>
+                            <h5><i class="fa fa-calendar-alt pr-2"></i>Viernes 29/11/19</h5>
                         </div>
-                        <hr />
-                        <div class="col-md-12 text-center p-2 bg-secondary text-white border rounded">
-                            <div class="form-group col-md-6 col-lg-12 mb">
-                                <label class="text-light">Nombre y apellido</label><br />
-                                <i class="fas fa-user form-control-filtro"> |</i>
-                                <input class="form-filtro" type="text" />
-                            </div>
-                            <div class="form-group col-md-6 col-lg-12 mb">
-                                <label  class="text-light">E-mail</label><br />
-                                <i class="fas fa-user form-control-filtro"> |</i>
-                                <input class="form-filtro" type="text" />
+                    </div>
+                </div>
+            </div>
+
+                 
+            <div class="col-lg-8">
+                <div class="row p-3">
+                    <div class="col-lg-6 d-flex align-items-end">
+                        <h3 class="titulo d-inline text-danger align-bottom font-weight-bold ">Datos de pago</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-center justify-content-end d-flex">
+                            <div class="mp-2">
+                                <img alt="tarjeta de credito visa" src="img/tarjeta2.png" class="img-fluid">
+                                <img alt="Tarjeta de credito mastercard" src="img/tarjeta3.png" class="img-fluid">
+                                <img alt="Tarjeta de credio american express" src="img/tarjeta4.png" class="img-fluid">
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-            </div>
-
-            <div class="col-lg-8">
                 <div class="card">
-                    <div class="card-header rounded">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <h2 class="text-danger d-inline">Formas de pago</h2>
+                    <div class="card-body">
+                        <h5 class="card-title titulo text-secondary"> • Comprador</h5>
+                        <div class="row p-2 bg-secondary text-white my-3">
+                            <div class="form-group col-md-6 col-lg-6 mb">
+                                <label class="text-secondary">Nombre y apellido</label><br />
+                                <i class="fas fa-user form-control-filtro"> |</i>
+                                <input class="form-filtro" type="text" placeholder="Jennifer Yolanda Peluda" />
                             </div>
-                            <div class="col-lg-6">
-                                <div class="text-center justify-content-end d-flex">
-                                    <div class="mp-2">
-                                        <img alt="tarjeta de credito visa" src="img/tarjeta2.png" class="img-fluid">
-                                        <img alt="Tarjeta de credito mastercard" src="img/tarjeta3.png" class="img-fluid">
-                                        <img alt="Tarjeta de credio american express" src="img/tarjeta4.png" class="img-fluid">
-                                    </div>
+                            <div class="form-group col-md-6 col-lg-6 mb">
+                                <label class="text-secondary">E-mail</label><br />
+                                <i class="fas fa-envelope form-control-filtro"> |</i>
+                                <input class="form-filtro" type="text" placeholder="jenny.04@gmail.com" />
+                            </div>
+                            <div class="form-group col-md-6 col-lg-6 mb">
+                                <label class="text-secondary">Dirección</label><br />
+                                <i class="fas fa-map-marker-alt  form-control-filtro"> |</i>
+                                <input class="form-filtro" type="text" placeholder="Park Avenue 123" />
+                            </div>
+                            <div class="form-group col-md-6 col-lg-6 mb">
+                                <label class="text-secondary">Provincia</label><br />
+                                <i class="fas fa-paragraph form-control-filtro"> |</i>
+                                <input class="form-filtro" type="text" placeholder="Buenos Aires" />
+                            </div>
+                        </div>
+                        
+                            <h5 class="card-title titulo text-secondary">• Datos de la tarjeta</h5>
+                           <hr />
+                            <div class="row p-2">
+                                <div class="form-group col-md-6 col-lg-6 mb">
+                                    <label>Tipo</label><br>
+                                    <i class="fas fa-credit-card form-control-filtro"> |</i>
+                                    <select class="form-filtro">
+                                        <option>Tarjeta de crédito</option>
+                                        <option>Tarjeta de débito</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-md-6 col-lg-6 mb">
+                                    <label>Número de tarjeta</label><br />
+                                    <i class="fas fa-hashtag form-control-filtro"> |</i>
+                                    <input class="form-filtro" type="text" />
+                                </div>
+
+                                <div class="form-group col-md-6 col-lg-6 mb">
+                                    <label>Fecha de vencimiento</label><br />
+                                    <i class="fas fa-calendar-alt form-control-filtro"> |</i>
+                                    <input class="form-filtro" type="text" />
+                                </div>
+
+                                <div class="form-group col-md-6 col-lg-6 mb">
+                                    <label>Código de seguridad</label><br />
+                                    <i class="fas fa-key form-control-filtro"> |</i>
+                                    <input class="form-filtro" type="text" />
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
-                    <br />
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="form-group col-md-6 col-lg-6 mb">
-                                <label>Tipo</label><br>
-                                <i class="fas fa-credit-card form-control-filtro"> |</i>
-                                <select class="form-filtro">
-                                    <option>Tarjeta de credito</option>
-                                    <option>Tarjeta de debito</option>
-                                </select>
+                            <div class="mt-5 float-right">
+                                <button type="button" class="btn btn-secondary ml-4">Cancelar</button>
+                                <button type="button" class="btn btn-danger ml-4">Finalizar compra</button>
                             </div>
-
-                            <div class="form-group col-md-6 col-lg-6 mb">
-                                <label>Número de tarjeta</label><br />
-                                <i class="fas fa-hashtag form-control-filtro"> |</i>
-                                <input class="form-filtro" type="text" />
-                            </div>
-
-                            <div class="form-group col-md-6 col-lg-6 mb">
-                                <label>Fecha de vencimiento</label><br />
-                                <i class="fas fa-calendar-alt form-control-filtro"> |</i>
-                                <input class="form-filtro" type="text" />
-                            </div>
-
-                            <div class="form-group col-md-6 col-lg-6 mb">
-                                <label>Código de seguridad</label><br />
-                                <i class="fas fa-key form-control-filtro"> |</i>
-                                <input class="form-filtro" type="text" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <div class="float-right">
-                            <button type="button" class="btn   btn-secondary ml-4 text-white">Modificar</button>
-                            <button type="button" class="btn   btn-danger ml-4 text-white">Comprar</button>
-                            <button type="button" class="btn   btn-secondary ml-4 text-white">Cancelar</button>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
