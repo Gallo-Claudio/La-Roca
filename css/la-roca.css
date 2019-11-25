@@ -1,3 +1,7 @@
+
+body{
+    min-width:900px;
+}
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 30px !important;
     height: 30px !important;
@@ -193,9 +197,20 @@ footer {
     background-image: url(../img/footer-home.png);
     background-size: cover;
 }
-.carousel-multi-item-2 .card img {
-    border-radius: 2px;
+
+.carousel .carousel-item img{
+    height:100%;
+    width: 100%;
+    border-radius:5px;
 }
+.carousel .carousel-item{
+    height:300px;
+    width: 100%;
+}
+
+
+
+
 
 iframe {
     width: 100%;
@@ -262,6 +277,7 @@ iframe {
     font-size:16px;
     margin-bottom:1rem;
 }
+
 
 .card:hover {
     box-shadow: #939394 0px 0px 15px;
