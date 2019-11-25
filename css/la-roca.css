@@ -117,7 +117,8 @@ label {
     letter-spacing: 2px;
 }
 .form-control {
-    box-shadow: 1px 1px 5px #c0c0c0;
+    /* box-shadow: 1px 1px 5px #c0c0c0;*/
+    
 }
 
 .hr-white {
